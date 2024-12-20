@@ -16,4 +16,4 @@ years = st.number_input('Enter the experience in years')
 
 if st.button('Predict Salary'):
     salary = predict_salary(years)
-    st.write(f"The salary for {years} experience is {salary}")
+    st.write(f"The salary for {years} years of experience is {salary}")
